@@ -7,4 +7,4 @@ curl "http://localhost:3000/accounts"
 curl -H "Content-Type: application/json" -X PUT -d '{"balance": "1500"}' "http://localhost:3000/accounts/5ab3246be1eb8209600f129b"
 curl -H "Content-Type: application/json" -X PUT -d '{"balance": "2500", "name": "credit"}' "http://localhost:3000/accounts/5ab3247ee1eb8209600f129c"
 
-curl -X DELETE "http://localhost:3000/accounts/id"
+curl -X DELETE "http://localhost:3000/accounts/5ab3246be1eb8209600f129b"
